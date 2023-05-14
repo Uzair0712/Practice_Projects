@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap");
+
+.small-bold-text {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-section);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.no-list-style {
+  list-style: none;
+}
+
+.hover-links {
+  color: var(--primary-text-color);
+  transition: 0.3s ease-out;
+}
+.hover-links:hover {
+  color: var(--accent-color);
+}
+
+.primary-button {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 500;
+  color: white !important;
+  padding: 12px 24px;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+  transition: 0.2s ease-out;
+}
+.primary-button:hover {
+  background-color: var(--accent-color-dark);
+}
+
+.secondary-button {
+  border: 0.5px solid var(--secondary-text-color);
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--primary-text-color) !important;
+  padding: 12px 24px;
+  transition: 0.2s ease-out;
+}
+.secondary-button:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color) !important;
+}
